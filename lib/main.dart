@@ -17,7 +17,12 @@ class _BallState extends State<Ball> {
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: Text('Ask Me Anything'),
+        title: Text(
+          'Ask Me Anything',
+          style: TextStyle(
+            fontSize: 32.0,
+          ),
+        ),
         centerTitle: true,
         backgroundColor: Colors.blue[900],
       ),
